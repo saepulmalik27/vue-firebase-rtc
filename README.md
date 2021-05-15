@@ -1,4 +1,4 @@
-<!-- bismillahi rohmani rohimi -->
+<!-- bismillahirohmanirohimi -->
 # vue-firebase-rtc
 
 ## Project setup
