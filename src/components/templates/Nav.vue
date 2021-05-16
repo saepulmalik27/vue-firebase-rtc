@@ -3,9 +3,9 @@
     <h1><strong class="text-primary">Vue</strong> Chat App</h1>
     <div v-if="isLogin" class="login">
       <Avatar :src="user.photoURL" width="20px" height="20px" />
-      <Button class="btn-transparent" @click="signOut" text="sign out" />
+      <Button class="btn-transparent" @click="signOut" >Sign Out </Button>
     </div>
-    <Button class="btn-primary" v-else @click="signIn" text="sign in" />
+    <Button class="btn-primary" v-else @click="signIn"  >Sign In</Button>
   </nav>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
-    <button :class="`btn ${className}`">
-        <Icon/> {{text}}
+    <button v-bind="$attrs" class="btn" >
+        <Icon/> 
+        <slot/>
     </button>
 </template>
 <script>
@@ -8,14 +9,6 @@ import Icon from '@atoms/Icon'
 export default {
     components : { Icon},
     props:{
-        text : {
-            type : String,
-            default:''
-        },
-        className : {
-            type : String,
-            default : ''
-        },
         icon : {
             type :String,
             default : ''

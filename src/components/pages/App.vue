@@ -1,14 +1,15 @@
 <template>
   <Nav/>
+  <Chat/>
 </template>
 
 <script>
-import Nav from '@components/templates/Nav';
-
+import Nav from '@templates/Nav';
+import Chat from '@templates/Chat'
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav, Chat
   }
 }
 </script>
