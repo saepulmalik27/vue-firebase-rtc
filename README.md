@@ -21,5 +21,8 @@ npm run build
 npm run lint
 ```
 
+### DEMO
+https://vue-chat-f642f.web.app/
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
