@@ -1,6 +1,6 @@
 <template>
 <div class="chat">
- <div class="chat-container">
+ <div class="chat-container" v-if="isLogin">
  
     <Message
       v-for="{ id, text, userPhotoURL, userName, userId } in messages"
